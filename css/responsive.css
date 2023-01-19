@@ -1,0 +1,57 @@
+@media (max-width: 414px) {
+  .intro-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro-flex > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-box {
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .button-header_top {
+    margin-bottom: 30px;
+  }
+
+  .button-header_top:hover {
+    margin-bottom: 30px;
+  }
+
+  .card-flex {
+flex-direction: column; 
+  }
+
+  #intro-section {
+    height: 2026px;
+  }
+
+  .intro-cards {
+    margin-bottom: 30px;
+        top: -700px;
+  }
+
+  .intro-flex {
+    height: 30%;
+  }
+  .intro-flex h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+  }
+
+  .intro-flex p {
+    padding-right: 0px;
+    padding: 0px 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+}
